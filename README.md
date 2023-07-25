@@ -1,7 +1,9 @@
 # client-server_program
-This project will create a local server that is able to store files. It stores files by serializing the file based on its type and then it encrypts it. It also has the capability of sending files to a client from the ones it has stored. This project utilizes data structures to store files in the server and has a variety of algorithms to serialize and deserialize files. This project also creates a client which can send and request files to the serverl. It also serializes and deserializes files as it sends and requests files.
+This project implements a local server that efficiently stores files using serialization and encryption. It also includes functionalities for sending files to clients and supports various algorithms for serialization and deserialization. Additionally, it provides a client application that allows users to interact with the server, sending and requesting files with built-in serialization and deserialization capabilities.
 
-## How to run local drop box:
+With this project, you can expect a robust file storage solution with secure encryption, smart data structures, and streamlined file transfers for a seamless user experience.
+
+## How to run:
 1. Open two system terminals
 2. Run this command: cd server
 3. Run this command: make clean
