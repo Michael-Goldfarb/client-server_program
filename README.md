@@ -4,22 +4,27 @@ This project implements a local server that efficiently stores files using seria
 With this project, you can expect a robust file storage solution with secure encryption, smart data structures, and streamlined file transfers for a seamless user experience.
 
 ## How to run:
-1. Open two system terminals
-2. Run this command: cd server
-3. Run this command: make clean
-4. Run this command: make
+1. Open two terminals
+2. Run these commands on one terminal:
+3.     cd server
+4.     make clean
+5.     make
 
-### Starting a local server
-6. Run this command: ./executable/server --hostname localhost:8081
+### Starting local server
+6. Run this command:
+7.     ./executable/server --hostname localhost:8081
 
 ### Connecting client to local server
 8. Go to second terminal
-9. Run this command: cd client
-10. Run this command: make clean
-11. Run this command: make
+9. Run these commands:
+10.     cd client
+11.     make clean
+12.     make
 
 #### Sending files to server
-13. Run this command: ./build/bin/release/client --hostname localhost:8081 --send (desired file you want to send to local server and make sure it is in the files folder)
+13. Run this command:
+14.     ./build/bin/release/client --hostname localhost:8081 --send [desired file you want to send to local server]  (make sure it is in the files folder!)
 
 #### Requesting files from server
-15. Run this command: ./build/bin/release/client --hostname localhost:8081 --request (desired folder you want to pull from server) 
+15. Run this command:
+16.     ./build/bin/release/client --hostname localhost:8081 --request [desired folder you want to pull from server]
